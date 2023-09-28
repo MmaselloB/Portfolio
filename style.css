@@ -55,7 +55,7 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
+  
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -150,6 +150,14 @@ p {
   padding: 120px 60px;
 }
 
+.mypic {
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px;
+  margin-top: 4px;
+ 
+}
+
 @media (max-width:960px) {
     h1 {
         font-size: 44px;
@@ -171,9 +179,6 @@ p {
    .about-section {
     padding: 0;
     text-align: center;
+    margin-top: 5px;
    }
-}
-.mypic {
-  border-radius: 8px;
- 
 }
