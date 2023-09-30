@@ -7,6 +7,14 @@
   
 }
 
+.nav-link {
+ transition: all 100ms ease-in-out;
+ color: black;
+ 
+ 
+}
+
+
 body {
   margin: 60px auto;
   
@@ -168,6 +176,17 @@ p {
   margin: 30px;
   margin-top: 4px;
  
+}
+.contactLinks p  {
+  text-align: left;
+  padding: 0;
+  line-break: 1;
+ 
+}
+.contactLinks a {
+  line-break: 1;
+  text-decoration: none;
+  font-family: var(--default-font-family);
 }
 
 
