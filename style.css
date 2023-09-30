@@ -51,7 +51,7 @@ h1 {
 h3 {
   font-size: 24px;
   opacity: 0.7;
-  line-height: 2;
+  line-height: 1;
 }
 
 p {
@@ -106,7 +106,9 @@ p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-
+.picture {
+  border-radius: 4px;
+}
 
 .languages {
   padding: 0px;
@@ -123,11 +125,6 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
 
 .work-paragraphs {
   display: flex;
@@ -161,6 +158,8 @@ p {
 }
 .heading {
   font-size: 64px;
+  margin-top: 100px;
+  line-height: 1;
 }
 
 .mypic {
@@ -194,5 +193,8 @@ p {
     padding: 0;
     text-align: center;
     margin-top: 5px;
+   }
+   .languages {
+    margin-bottom: 30px;
    }
 }
