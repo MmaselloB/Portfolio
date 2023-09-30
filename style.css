@@ -12,7 +12,7 @@ body {
   
 }
 
-h1, h3, h4, h5, h6 {
+h1, h3 {
   color: black;
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -20,7 +20,7 @@ h1, h3, h4, h5, h6 {
 
 }
 
-h2, h3 {
+h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
 
@@ -72,7 +72,12 @@ p {
   box-shadow: var(--box-shadow);
   
 }
+.work-content h3 {
+  font-size: 24px;
+  color: black;
+  line-height: 2;
 
+ }
 
 .navigation-links {
   display: flex;
@@ -88,20 +93,25 @@ p {
   text-transform: capitalize;
 }
 
-.about-section {
+.content {
   padding: 100px 50px; ;
 }
 
-.about-section h1 {
+.content h1 {
   font-family: var(--heading-font-family) ;
   font-size: 64px;
   line-height: 1;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
+
+.languages {
+  padding: 0px;
+  margin: 0;
+}
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -119,13 +129,13 @@ p {
   display: block;
 }
 
-.about-paragraphs {
+.work-paragraphs {
   display: flex;
   margin: 30px 0;
  
 }
 
-.about-paragraphs p {
+.work-paragraphs p {
   margin: 10px;
   background: white;
 }
@@ -149,6 +159,9 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.heading {
+  font-size: 64px;
+}
 
 .mypic {
   border-radius: 8px;
@@ -157,6 +170,7 @@ p {
   margin-top: 4px;
  
 }
+
 
 @media (max-width:960px) {
     h1 {
