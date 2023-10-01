@@ -1,7 +1,7 @@
 :root {
   --primary-color:#DC2F2F;
-  --secondary-color: #f5f2fe;
-  --box-shadow:  0 10px 10px rgb(0, 0, 0, 0.3);
+  --secondary-color: white;
+  
   --heading-font-family:  "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   
@@ -9,7 +9,7 @@
 
 .nav-link {
  transition: all 100ms ease-in-out;
- color: red;
+ color: #DC2F2F;
  
 }
 
@@ -74,15 +74,16 @@ p {
   text-align: center;
 }
 .btn-branding {
-  color: white;
-   background: var(--primary-color);
+ background: var(--primary-color);
   border-radius: 4px;
+  color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  box-shadow: var(--box-shadow);
- 
+  border: 1px solid var(--secondary-color);
+
 }
+
 
 .work-content h3 {
   font-size: 24px;
@@ -265,5 +266,21 @@ p {
    }
    .languages {
     margin-bottom: 30px;
+   }
+   .content {
+    padding: 50px 20px;
+   }
+   .content p {
+   text-align: left;
+   }
+    .content img {
+    padding: 0px;
+    max-width: 300px;
+   }
+   .heading {
+    margin: 20px;
+   }
+   .work-paragraphs img {
+    margin-top: 20px;
    }
 }
