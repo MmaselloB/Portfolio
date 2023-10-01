@@ -120,7 +120,7 @@ p {
   font-family: var(--default-font-family);
 }
 .picture {
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .languages {
@@ -199,9 +199,8 @@ p {
  
  }
  footer .content-box {
-  background-color: var(--secondary-color);
+  background: #F5F2FE;
   padding: 30px 120px;
- 
   border-radius: 4px;
  }
   footer .content-box p {
@@ -225,7 +224,11 @@ p {
   color: var(--primary-color);
  }
 
-
+footer .contact-box {
+    background-color: var(--primary-color);
+    padding: 30px;
+    border-radius: 10px;
+   
 
  footer .social-links a {
   margin: 20px 20px;
